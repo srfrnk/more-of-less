@@ -1,0 +1,33 @@
+.fx-container(@direction:row,@wrap:nowrap,@justify:space-between,@align-items:stretch,@align-content:stretch) {
+  display: flex;
+  flex-direction: @direction;
+  flex-wrap: @wrap;
+  justify-content: @justify;
+  align-items: @align-items;
+  align-content: @align-content;
+}
+
+.fx-row(@justify:space-between,@align-items:stretch,@align-content:stretch) {
+  .fx-container(@direction:row,@wrap:nowrap,@justify:@justify,@align-items:@align-items,@align-content:@align-content);
+}
+
+.fx-rows(@justify:space-between,@align-items:stretch,@align-content:stretch) {
+  .fx-container(@direction:row,@wrap:wrap,@justify:@justify,@align-items:@align-items,@align-content:@align-content);
+}
+
+.fx-col(@justify:space-between,@align-items:stretch,@align-content:stretch) {
+  .fx-container(@direction:column,@wrap:nowrap,@justify:@justify,@align-items:@align-items,@align-content:@align-content);
+}
+
+.fx-cols(@justify:space-between,@align-items:stretch,@align-content:stretch) {
+  .fx-container(@direction:column,@wrap:wrap,@justify:@justify,@align-items:@align-items,@align-content:@align-content);
+}
+
+.fx-item(@basis:auto,@shrink:0,@grow:0,@align:auto,@order:0) {
+  display: flex;
+  flex-basis: @basis;
+  flex-grow: @grow;
+  flex-shrink: @shrink;
+  align-self: @align;
+  order: @order;
+}

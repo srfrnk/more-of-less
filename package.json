@@ -1,0 +1,22 @@
+{
+    "name": "more-or-less",
+    "version": "0.0.1",
+    "devDependencies": {
+    },
+    "description": "LESS extensions",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/srfrnk/more-or-less.git"
+    },
+    "keywords": [
+        "LESS",
+        "Flex",
+        "FontAwesome"
+    ],
+    "author": "srfrnk",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/srfrnk/more-or-less/issues"
+    },
+    "homepage": "https://github.com/srfrnk/more-or-less"
+}

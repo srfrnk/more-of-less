@@ -1,0 +1,23 @@
+{
+  "name": "more-or-less",
+  "version": "0.0.1",
+  "homepage": "https://github.com/srfrnk/more-or-less",
+  "authors": [
+    "srfrnk <srfrnk@gmail.com>"
+  ],
+  "description": "LESS extensions",
+  "keywords": [
+    "LESS",
+    "Flex",
+    "FontAwesome"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
