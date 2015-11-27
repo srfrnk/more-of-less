@@ -8,3 +8,11 @@
     content: @@icon-name;
   }
 }
+
+.fa-spin(@interval:1s)
+{
+  &:after {
+    -webkit-animation: fa-spin @interval infinite linear;
+    animation: fa-spin @interval infinite linear;
+  }
+}
