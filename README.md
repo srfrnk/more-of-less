@@ -1,4 +1,4 @@
-more-or-less
+more-of-less
 ==============================
 
 Various LESS extensions

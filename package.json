@@ -1,12 +1,12 @@
 {
-    "name": "more-or-less",
+    "name": "more-of-less",
     "version": "0.0.1",
     "devDependencies": {
     },
     "description": "LESS extensions",
     "repository": {
         "type": "git",
-        "url": "https://github.com/srfrnk/more-or-less.git"
+        "url": "https://github.com/srfrnk/more-of-less.git"
     },
     "keywords": [
         "LESS",
@@ -16,7 +16,7 @@
     "author": "srfrnk",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/srfrnk/more-or-less/issues"
+        "url": "https://github.com/srfrnk/more-of-less/issues"
     },
-    "homepage": "https://github.com/srfrnk/more-or-less"
+    "homepage": "https://github.com/srfrnk/more-of-less"
 }
