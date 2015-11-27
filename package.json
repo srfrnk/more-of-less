@@ -1,6 +1,6 @@
 {
   "name": "more-of-less",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "devDependencies": {
   },
   "description": "LESS extensions",
@@ -11,7 +11,8 @@
   "keywords": [
     "LESS",
     "Flex",
-    "FontAwesome"
+    "Font Awesome",
+    "CSS animation"
   ],
   "author": "srfrnk",
   "license": "MIT",
